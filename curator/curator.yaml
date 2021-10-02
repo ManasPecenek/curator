@@ -2,7 +2,7 @@ apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: curator-v2
-  namespace: efk
+  namespace: monitoring-ns
   labels:
     app: curator-v2
 spec:
