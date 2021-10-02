@@ -39,7 +39,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 `kubectl get pods -n monitoring-ns -w # Check that job is completed`
 
-`kubectl logs test-job-xxxx # Check the logs whether the job is successfully deleted the indices`
+`kubectl logs test-job-xxxx # Check the logs whether the job has successfully deleted the indices`
 
 
 # Sources
