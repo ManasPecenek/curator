@@ -25,6 +25,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 # 4) How To Test
 
 `
+
 git clone https://github.com/ManasPecenek/curator.git && cd curator/curator
 
 kubectl create ns monitoring-ns
@@ -40,6 +41,7 @@ kubectl create job -n monitoring-ns test-job --from=cronjob/curator-v2
 kubectl get pods -n monitoring-ns -w # Check that job is completed
 
 kubectl logs test-job-xxxx # Check the logs whether the job is successfully deleted the indices
+
 `
 
 # Sources
