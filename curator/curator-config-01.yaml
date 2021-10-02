@@ -37,7 +37,7 @@ data:
           field:
           stats_result:
           epoch:
-          exclude: False
+          exclude:
   config.yml: |-
     ---
     # Remember, leave a key empty if there is no value.  None will be a string,
