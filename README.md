@@ -16,9 +16,9 @@ Create Cronjob resource from [curator.yaml](https://github.com/ManasPecenek/cura
 * To clean up logstash, fluentbit, arm indices which are older than 3 weeks simultaneously, deploy [curator-config-04.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-04.yaml)
 
 
-# 3) Curator Configmap for SSL
+# 3) Curator Configmap for HTTPS
 
-If your elasticsearch is using secure connection, you need to configure [curator-config-HTTPS.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-HTTPS.yaml) file as your config.
+If your elasticsearch is using secure connection, you need to configure [curator-config-HTTPS.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-HTTPS.yaml) file for HTTP Basic Authentication.
 
 
 # Sources
