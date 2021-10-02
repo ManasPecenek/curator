@@ -1,4 +1,6 @@
-## Curator for Kubernetes
+------------------------
+# Curator for Kubernetes
+------------------------
 
 # 1) Deploy Curator as a Cronjob in your cluster
 
