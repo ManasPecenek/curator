@@ -24,11 +24,10 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 # 4) How To Test
 
-`
 
-git clone https://github.com/ManasPecenek/curator.git && cd curator/curator
+`git clone https://github.com/ManasPecenek/curator.git && cd curator/curator`
 
-kubectl create ns monitoring-ns
+`kubectl create ns monitoring-ns`
 
 kubectl run es -n monitoring-ns --image elasticsearch:7.14.1 --env "discovery.type=single-node" --port 9200
 
@@ -42,7 +41,6 @@ kubectl get pods -n monitoring-ns -w # Check that job is completed
 
 kubectl logs test-job-xxxx # Check the logs whether the job is successfully deleted the indices
 
-`
 
 # Sources
 
