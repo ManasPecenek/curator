@@ -23,6 +23,7 @@ data:
           continue_if_exception: False
           disable_action: False
           ignore_empty_list: True
+          allow_ilm_indices: True
         filters:
         - filtertype: pattern
           kind: prefix
