@@ -32,19 +32,13 @@ kubectl run es -n monitoring-ns --image elasticsearch:7.14.1 --env "discovery.ty
 
 kubectl expose pod es -n monitoring-ns --name es-svc --port 9200
 
-# Update the hosts part in curator-config-01.yaml as es-svc
-
-kubectl apply -f curator-config-01.yaml && kubectl apply -f curator.yaml
+kubectl apply -f curator-config-01.yaml && kubectl apply -f curator.yaml # Update the hosts part in curator-config-01.yaml as es-svc
 
 kubectl create job -n monitoring-ns test-job --from=cronjob/curator-v2 
 
-# Check that job is completed
+kubectl get pods -n monitoring-ns -w # Check that job is completed
 
-kubectl get pods -n monitoring-ns -w 
-
-# Check the logs whether the job is successfully deleted the indices
-
-kubectl logs test-job-xxxx
+kubectl logs test-job-xxxx # Check the logs whether the job is successfully deleted the indices
 
 
 # Sources
