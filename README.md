@@ -2,7 +2,7 @@
 
 # 1) Deploy Curator as a Cronjob in your cluster
 
-https://github.com/ManasPecenek/curator/blob/main/curator/curator.yaml
+[a link](https://github.com/ManasPecenek/curator/blob/main/curator/curator.yaml)
 
 Curator Pod and Config Map for kubernetes
 
