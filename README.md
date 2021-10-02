@@ -24,7 +24,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 # 4) How To Test
 
-https://gist.github.com/ManasPecenek/ec88f8909d4972a9bb1cafdfbc3fdc72
+<script src="https://gist.github.com/ManasPecenek/ec88f8909d4972a9bb1cafdfbc3fdc72.js"></script>
 
 git clone https://github.com/ManasPecenek/curator.git && cd curator/curator
 
