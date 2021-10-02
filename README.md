@@ -18,7 +18,9 @@ Create Cronjob resource from [curator.yaml](https://github.com/ManasPecenek/cura
 
 # 3) Curator Configmap for SSL
 
-If your elasticsearch is using secure connection, you need to configure [curator-config-HTTPS.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-HTTPS.yaml) file as your config file.
+If your elasticsearch is using secure connection, you need to configure [curator-config-HTTPS.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-HTTPS.yaml) file as your config.
 
+
+# Sources
 
 For further information, you can visit https://docs.search-guard.com/latest/elasticsearch-curator-search-guard, https://www.elastic.co/guide/en/elasticsearch/client/curator/current/filters.html, https://www.elastic.co/guide/en/elasticsearch/client/curator/current/filtertype_age.html and https://www.elastic.co/guide/en/elasticsearch/client/curator/current/configfile.html
