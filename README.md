@@ -15,6 +15,8 @@ Create Cronjob resource from [curator.yaml](https://github.com/ManasPecenek/cura
 
 * To clean up logstash indices which are older than 9 days, deploy [curator-config-03.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-03.yaml)
 
+* To clean up all indices which are older than 15 days, deploy [curator-config-05.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-05.yaml)
+
 * To clean up logstash, fluentbit, arm indices which are older than 3 weeks simultaneously, deploy [curator-config-04.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator-config-04.yaml)
 
 
