@@ -17,7 +17,7 @@ COPY --from=builder /bin /bin
 COPY --from=builder /lib /lib
 COPY --from=builder /etc /etc
 
-RUN adduser -D -u 1881 atam
-USER atam
+RUN adduser -D -u 1283 atm
+USER atm
 
 ENTRYPOINT ["/usr/bin/curator"]
