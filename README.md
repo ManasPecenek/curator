@@ -28,11 +28,11 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 * Create a Kubernetes cluster with "KIND" if you do not have any. For Kind, you must have Docker installed
 
-# for macOS
+##### for macOS
 
 `brew install kind `
 
-# for Linux
+##### for Linux
 
 `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64 && chmod +x ./kind && mv ./kind /some-dir-in-your-PATH/kind`
 
