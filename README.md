@@ -26,6 +26,19 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 # 4) How To Test
 
+* Create a Kubernetes cluster with "KIND" if you do not have any. For Kind, you must have Docker installed
+
+# for macOS
+
+`brew install kind `
+
+# for Linux
+
+`curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64 && chmod +x ./kind && mv ./kind /some-dir-in-your-PATH/kind`
+
+* Then create a basic kind cluster
+
+`kind create cluster --name curator-test`
 
 `git clone https://github.com/ManasPecenek/curator.git && cd curator/curator`
 
@@ -42,6 +55,10 @@ If your elasticsearch is using secure connection, you need to configure [curator
 `kubectl get pods -n monitoring-ns -w # Check that job is completed`
 
 `kubectl logs test-job-xxxx # Check the logs whether the job has successfully deleted the indices`
+
+* Then delete the cluster
+
+`kind delete cluster --name curator-test`
 
 
 # Sources
