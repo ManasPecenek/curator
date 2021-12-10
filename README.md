@@ -42,7 +42,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 * Now we can deploy curator
 
-`git clone https://github.com/ManasPecenek/curator.git && cd curator/curator`
+`git clone --depth=1 https://github.com/ManasPecenek/curator.git && cd curator/curator`
 
 `kubectl create ns monitoring-ns`
 
