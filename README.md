@@ -26,7 +26,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 # 4) How To Test
 
-* Then create a basic cluster
+* Create a basic cluster
 
 `git clone --depth=1 https://github.com/ManasPecenek/clinco.git && cd clinco && chmod +x initial-script.sh add-worker.sh`
 
