@@ -26,19 +26,11 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 # 4) How To Test
 
-* Create a Kubernetes cluster with "KIND" if you do not have any. For Kind, you must have Docker installed
+* Then create a basic cluster
 
-##### for macOS
+`git clone --depth=1 https://github.com/ManasPecenek/clinco.git && cd clinco && chmod +x initial-script.sh add-worker.sh`
 
-`brew install kind `
-
-##### for Linux
-
-`curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64 && chmod +x ./kind && mv ./kind /some-dir-in-your-PATH/kind`
-
-* Then create a basic kind cluster
-
-`kind create cluster --name curator-test`
+`./initial-script.sh 1`
 
 * Now we can deploy curator
 
@@ -60,7 +52,7 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 * Then delete the cluster
 
-`kind delete cluster --name curator-test`
+`docker rm -f master worker-1`
 
 
 # Sources
