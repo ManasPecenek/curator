@@ -30,9 +30,6 @@ data:
           direction: older
           unit: days
           unit_count: 15
-          field:
-          stats_result:
-          epoch:
           exclude: False
   config.yml: |-
     ---
