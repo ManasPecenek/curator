@@ -31,6 +31,8 @@ data:
           unit: days
           unit_count: 15
           exclude: False
+        - filtertype: kibana
+          exclude: True
   config.yml: |-
     ---
     # Remember, leave a key empty if there is no value.  None will be a string,

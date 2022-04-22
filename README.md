@@ -2,6 +2,8 @@
 # Curator for Kubernetes
 ------------------------
 
+## This repository consists of Curator cronjob file and config files which delete certain indeces except ^\.kibana.*$ not to cause Kibana to crash
+
 # 1) Deploy Curator as a Cronjob in your cluster
 
 Create Cronjob resource from [curator.yaml](https://github.com/ManasPecenek/curator/blob/main/curator/curator.yaml)
