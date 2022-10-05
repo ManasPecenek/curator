@@ -30,9 +30,11 @@ If your elasticsearch is using secure connection, you need to configure [curator
 
 * Create a basic cluster
 
-`git clone --depth=1 https://github.com/ManasPecenek/clinco.git && cd clinco && chmod +x initial-script.sh add-worker.sh && alias startCluster="bash initial-script.sh" addNode="bash add-worker.sh"`
+````
+git clone --depth=1 https://github.com/ManasPecenek/clinco.git && cd clinco && chmod +x initial-script.sh add-worker.sh && alias startCluster="bash initial-script.sh" addNode="bash add-worker.sh"
 
-`startCluster <worker-node-count>`
+startCluster <worker-node-count>
+````
 
 * Now we can deploy curator
 
