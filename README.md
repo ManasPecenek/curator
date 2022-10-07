@@ -64,7 +64,11 @@ kubectl logs test-job-xxxx # Check the logs whether the job has successfully del
 # Sources
 
 For further information, you can visit:
+
 https://docs.search-guard.com/latest/elasticsearch-curator-search-guard
+
 https://www.elastic.co/guide/en/elasticsearch/client/curator/current/filters.html
+
 https://www.elastic.co/guide/en/elasticsearch/client/curator/current/filtertype_age.html
+
 https://www.elastic.co/guide/en/elasticsearch/client/curator/current/configfile.html
