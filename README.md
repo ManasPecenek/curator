@@ -2,7 +2,7 @@
 # Curator for Kubernetes
 ------------------------
 
-## This repository consists of Curator cronjob file and config files which delete certain indeces except ^\.kibana.*$ not to cause Kibana to crash
+## This repository consists of Curator cronjob file and config files which delete certain indeces except ^\.kibana.*$ (in order not to cause Kibana to crash)
 
 # 1) Deploy Curator as a Cronjob in your cluster
 
